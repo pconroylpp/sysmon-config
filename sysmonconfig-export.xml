@@ -1457,12 +1457,13 @@
 			<TargetFilename condition="end with">.rar.exe</TargetFilename>
 			<TargetFilename condition="end with">.7z.exe</TargetFilename>
 
-			<!-- Tools that tamper with Sysmon -->
+			<!-- Tools that tamper with Sysmon and EDR agents -->
 			<TargetFilename condition="end with">\EntenLoader.exe</TargetFilename>
 			<TargetFilename condition="end with">\SysmonQuiet.exe</TargetFilename>
 			<TargetFilename condition="end with">\SharpEvtMute.exe</TargetFilename>
 			<TargetFilename condition="end with">\EvtMuteHook.dll</TargetFilename>
 			<TargetFilename condition="end with">\SysmonEOP.exe</TargetFilename>
+            <TargetFilename condition="end with">\bamboozlEDR.exe</TargetFilename>
 
 			<!-- Hacktools based on Imphashes -->
 			<Hashes condition="contains">IMPHASH=BCCA3C247B619DCD13C8CDFF5F123932</Hashes> <!-- PetitPotam -->
