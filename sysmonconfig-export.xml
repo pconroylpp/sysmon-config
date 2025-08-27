@@ -1464,6 +1464,7 @@
 			<TargetFilename condition="end with">\EvtMuteHook.dll</TargetFilename>
 			<TargetFilename condition="end with">\SysmonEOP.exe</TargetFilename>
             <TargetFilename condition="end with">\bamboozlEDR.exe</TargetFilename>
+            <TargetFilename condition="end with">\CreateProcessAsPPL.exe</TargetFilename>
 
 			<!-- Hacktools based on Imphashes -->
 			<Hashes condition="contains">IMPHASH=BCCA3C247B619DCD13C8CDFF5F123932</Hashes> <!-- PetitPotam -->
